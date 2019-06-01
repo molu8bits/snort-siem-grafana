@@ -5,14 +5,14 @@ but removes existing hard-coded dependencies and provides all configuration deta
 
 Logs flow and components:
 
-![](_images\flow01.png)
+![](_images/flow01.png)
 
 
 Example dashboards:
 
-![](_images\4f567057.png)
+![](_images/4f567057.png)
 
-![](_images\a03c1a4e.png)
+![](_images/a03c1a4e.png)
 
 
 TODO
