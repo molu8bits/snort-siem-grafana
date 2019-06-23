@@ -1,0 +1,12 @@
+# /etc/systemd/system/multi-user.target.wants/barnyard2.service
+# SystemD control file for Barnyard2 service
+[Unit]
+Description=Barnyard2 Daemon
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/barnyard2 -c /etc/snort/barnyard2.conf -l /var/log/barnyard2 -d /var/log/snort -f merged.log -v -w /var/log/snort/waldo2.file -g snort -u snort -D -a /var/log/snort/archived_logs --pid-path /var/log/barnyard2
+
+[Install]
+WantedBy=multi-user.target

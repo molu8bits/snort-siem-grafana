@@ -1,0 +1,13 @@
+# /etc/systemd/system/multi-user.target.wants/snort.service
+# SystemD control file for Snort service
+# -l parameter configures output log directory to be processed further by Barnyard2
+[Unit]
+Description=Snort NIDS/IPS Daemon em1 interface
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/snort -q -u snort -g snort -c /etc/snortem1/snort.conf -i eth0 -l /var/log/snort
+
+[Install]
+WantedBy=multi-user.target
