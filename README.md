@@ -6,6 +6,8 @@ While some IDS/IPS systems still wait for upgrade to Snort3 where JSON logging i
 Project is based on existing grafana security dashboard [Security center](https://grafana.com/dashboards/3099)
 but removes existing hard-coded dependencies and provides all configuration details for Snort, Barnyard2, Elasticsearch and Grafana.
 
+This tag works with ELK stack 6.5
+
 Logs flow and components:
 
 ![](_images/flow01.png)
