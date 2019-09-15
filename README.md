@@ -1,4 +1,4 @@
-# Snort2 grafana dashboard
+<h2>Snort2 grafana dashboard</h2>
 
 While some IDS/IPS systems still wait for upgrade to Snort3 where JSON logging is available (or Suricata) it may be useful give elasticity of logs handling given by Elasticsearch and Grafana for Snort2
 
@@ -12,7 +12,7 @@ Logs flow and components:
 ![](_images/flow01.png)
 
 
-Example dashboards:
+<h4>Example dashboards:</h4>
 
 ![](_images/4f567057.png)
 
@@ -36,7 +36,7 @@ Output for snort log is set to elasticsearch and index name like snortids-%YY-%M
 
 Just connects to defined Elasticsearch clusters:
 
-<p>EL datasource definition (before importing Grafana dashboard):</p>
+<p>Elasticsearch datasource definition (before importing Grafana dashboard):</p>
 
 ![](_images/elasticsearch-datasource01.png.png)
 
