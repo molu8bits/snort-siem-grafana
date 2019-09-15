@@ -7,8 +7,6 @@ but removes existing hard-coded dependencies and provides all configuration deta
 
 This tag works with ELK stack version 6.5
 
-This tag works with ELK stack 6.5
-
 Logs flow and components:
 
 ![](_images/flow01.png)
