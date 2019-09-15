@@ -39,4 +39,3 @@ Just connects to defined Elasticsearch clusters:
 
 ![](_images/elasticsearch-datasource01.png.png)
 
-
